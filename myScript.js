@@ -24,9 +24,12 @@ function closeNav() {
     location.href = 'Page1.html';
 }
  //Navigate to other pages (not yet implemented, 404 page created)
- function onClickNavpg2(){
-    location.href = '404.html';
+ function onClickNavNYR(){
+    location.href = 'nyr.html';
     
+}
+function onClickNavBlog(){
+    location.href = 'blog.html';
 }
 function onClickNavpg3(){
     localton.href = "About.html"
