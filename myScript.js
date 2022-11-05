@@ -28,8 +28,8 @@ function closeNav() {
     location.href = 'nyr.html';
     
 }
-function onClickNavBlog(){
-    location.href = 'blog.html';
+function onClickNavProj(){
+    location.href = 'projects.html';
 }
 function onClickNavpg3(){
     localton.href = "About.html"
