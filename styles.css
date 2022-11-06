@@ -54,12 +54,16 @@ color : red;
 .mainbody{
     background-color:rgb(123, 159, 224);
 }
-.mainbody2{
+#mainbodyDark{
     background-color: #363636;
+    color: gainsboro;
 }
-#DNbutton{
-    background-color: #363636;
-    color: rgb(158, 158, 158) ;
+#mainbodyLight{
+    background-color: gainsboro;
+    color: black;
+}
+#clickText{
+    cursor:pointer ;
 }
 #curPage{
     cursor:pointer;
