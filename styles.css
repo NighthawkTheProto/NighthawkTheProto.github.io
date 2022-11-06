@@ -57,6 +57,10 @@ color : red;
 .mainbody2{
     background-color: #363636;
 }
+#DNbutton{
+    background-color: #363636;
+    color: rgb(158, 158, 158) ;
+}
 #curPage{
     cursor:pointer;
     color:  #4b4b4d;
