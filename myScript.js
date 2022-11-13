@@ -50,10 +50,12 @@ else{
 function LighttoDark(){
 var curId = document.getElementById('mainbodyLight'); //Checks for Light mode ID
 curId.setAttribute('id','mainbodyDark'); //sets dark mode ID
+var butFunc = document.getElementById('clickText').innerHTML = "[Light Mode]"
 }
 
 function DarktoLight(){
 var curId = document.getElementById('mainbodyDark'); //checs for Dark mode ID
 curId.setAttribute('id','mainbodyLight'); //sets light mode ID
+var butFunc = document.getElementById('clickText').innerHTML = "[Dark Mode]"
 }
 }
