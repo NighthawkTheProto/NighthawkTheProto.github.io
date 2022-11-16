@@ -8,26 +8,24 @@ function openNav(){
 }
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-  }
+}
 
   //Navigate to other pages
-  function onClickNavMain(){
-      location.href = 'index.html';
-  }
-   //Navigate to Page 1
-   function onClickNavpg1(){
-    location.href = 'Page1.html';
+ function onClickNavMain(){
+          location.href = 'index.html';
 }
+   
  //Navigate to other pages (not yet implemented, 404 page created)
  function onClickNavNYR(){
     location.href = 'nyr.html';
     
 }
-function onClickNavProj(){
+ function onClickNavProj(){
     location.href = 'projects.html';
 }
-function onClickNavpg3(){
-    localton.href = "About.html"
+ function onClickNavAbout(){
+    location.href = 'about.html';
+    
 }
 //can use getelementbyid to make a download button
 
